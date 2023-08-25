@@ -1,0 +1,63 @@
+body {
+  background-color: cornsilk; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.icono_eliminar {
+  width: 15px;
+}
+
+.btn_add {
+  height: 36px;
+  background: #0c25d4;
+  border-style: none;
+  color: white;
+  width: 15%;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.btn_eliminar{
+padding: 10px;
+
+}
+
+#taskform {
+  margin-bottom: 30px;
+}
+
+#tasklist {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.taskInput {
+  width: 80%;
+  height: 30px;
+}
+
+
+.task_item{
+  display: flex;
+  background-color: rgb(206 206 206);
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 7px;
+}
+
+.task_titulo{
+  width: 90%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
